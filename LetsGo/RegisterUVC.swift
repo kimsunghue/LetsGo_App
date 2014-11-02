@@ -10,10 +10,10 @@ import UIKit
 
 class RegisterUVC: UIViewController {
     
-    //****** 页面元素 ******
+    // ****** 变量元素 ******
     @IBOutlet weak var uv_registerView: UIView!
     
-    //****** 页面显示 ******
+    // ****** 页面显示 ******
     override func viewDidLoad() {
         super.viewDidLoad()
         

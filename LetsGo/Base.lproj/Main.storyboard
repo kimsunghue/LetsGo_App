@@ -85,6 +85,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="act_done:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kUX-SK-LRZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23o-Hv-Xhk">
                                 <rect key="frame" x="21" y="269" width="70" height="20"/>
@@ -133,6 +136,8 @@
                     <navigationItem key="navigationItem" title="登录" id="heZ-Ze-M9V"/>
                     <connections>
                         <outlet property="ubt_done" destination="cWc-ur-ZOh" id="3fg-IT-jV2"/>
+                        <outlet property="utf_login" destination="35v-W6-7AU" id="eqW-WH-A7Z"/>
+                        <outlet property="utf_password" destination="0D7-1p-HY0" id="1nQ-Ps-1Fx"/>
                         <outlet property="uv_loginView" destination="fig-KJ-xgo" id="jaT-TL-lgA"/>
                         <outlet property="uv_passwordView" destination="3Ug-Bs-Og0" id="AWH-eh-Hmi"/>
                     </connections>
@@ -298,6 +303,7 @@
                             </segmentedControl>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userIcon" translatesAutoresizingMaskIntoConstraints="NO" id="hsR-n9-V6P">
                                 <rect key="frame" x="36" y="84" width="100" height="100"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="2cx-sw-NSI"/>
                                     <constraint firstAttribute="height" constant="100" id="e6i-Uu-P1q"/>

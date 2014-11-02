@@ -17,6 +17,8 @@
 		815F6DDA1A06008B006D0E84 /* AXStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6DD91A06008B006D0E84 /* AXStyle.swift */; };
 		815F6DE01A061094006D0E84 /* RegisterUVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6DDF1A061094006D0E84 /* RegisterUVC.swift */; };
 		815F6DE21A062840006D0E84 /* Register2UVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6DE11A062840006D0E84 /* Register2UVC.swift */; };
+		8166FBAC1A066757002CAD19 /* AXAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166FBAB1A066757002CAD19 /* AXAnimation.swift */; };
+		8166FBAE1A066B2B002CAD19 /* AXAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166FBAD1A066B2B002CAD19 /* AXAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		815F6DD91A06008B006D0E84 /* AXStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXStyle.swift; sourceTree = "<group>"; };
 		815F6DDF1A061094006D0E84 /* RegisterUVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUVC.swift; sourceTree = "<group>"; };
 		815F6DE11A062840006D0E84 /* Register2UVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register2UVC.swift; sourceTree = "<group>"; };
+		8166FBAB1A066757002CAD19 /* AXAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXAnimation.swift; sourceTree = "<group>"; };
+		8166FBAD1A066B2B002CAD19 /* AXAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +136,9 @@
 		815F6DD61A05FEE7006D0E84 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				8166FBAB1A066757002CAD19 /* AXAnimation.swift */,
 				815F6DD91A06008B006D0E84 /* AXStyle.swift */,
+				8166FBAD1A066B2B002CAD19 /* AXAlert.swift */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -249,10 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				812A71DF1A05FA0500A5F216 /* AppDelegate.swift in Sources */,
+				8166FBAE1A066B2B002CAD19 /* AXAlert.swift in Sources */,
 				815F6DE01A061094006D0E84 /* RegisterUVC.swift in Sources */,
 				812A71E21A05FA0500A5F216 /* LetsGo.xcdatamodeld in Sources */,
 				815F6DDA1A06008B006D0E84 /* AXStyle.swift in Sources */,
 				815F6DE21A062840006D0E84 /* Register2UVC.swift in Sources */,
+				8166FBAC1A066757002CAD19 /* AXAnimation.swift in Sources */,
 				815F6DD81A05FF0B006D0E84 /* LoginUVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
