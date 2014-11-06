@@ -9,9 +9,16 @@
 import Foundation
 import UIKit
 
+/// 
+/// @brief UIAlertView的处理类
+/// @date 2014-11-02
+/// @author JinXinghui
+///
 class AXAlert:UIViewController {
     
-    // ****** alert相机或相册 ******
+    ///
+    /// @brief alert相机或相册
+    ///
     func imageGetForm() -> UIAlertController {
         // 初始化alert控制器
         var alertController = UIAlertController(title: nil, message: nil, preferredStyle: UIAlertControllerStyle.Alert)
@@ -26,13 +33,18 @@ class AXAlert:UIViewController {
         return alertController
     }
     
-    // ****** alert简单信息 ******
-    func messageAlert() {
+    ///
+    /// @brief alert简单信息
+    /// @param title 标题
+    /// @param nessage 内容
+    ///
+    func messageAlert(title: String = "温馨提示", message: String) {
         var alertView = UIAlertView()
         alertView.delegate=self
-        alertView.title = "Title"
-        alertView.message = "Message"
-        alertView.addButtonWithTitle("OK")
+        alertView.title = title
+        alertView.message = message
+        alertView.addButtonWithTitle("确定")
+        //alertView.addButtonWithTitle("取消")
         alertView.show()
     }
 }

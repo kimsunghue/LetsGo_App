@@ -9,9 +9,16 @@
 import Foundation
 import UIKit
 
+///
+/// @brief view动作的处理类
+/// @date 2014-11-01
+/// @author JinXinghui
+///
 class AXAnimation {
     
-    // ****** 画面元素抖动方法 ******
+    ///
+    /// @brief view画面元素抖动方法
+    ///
     func viewShake(sender: AnyObject) {
         let animation = CAKeyframeAnimation()
         animation.keyPath = "position.x"
